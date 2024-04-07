@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: #005454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.geral{
+    width:600px; /*largura*/
+    height: 600px; /*altura*/
+    background-color: white; /*cor de fundo*/
+    border: 5px solid #05ab9d; /*fazendo uma borda*/
+    border-radius: 30px; /*arredondamento da borda*/
+    display: grid; /*torna a div um container bidimensional*/
+    place-items: center;
+    margin: auto;         
+}
+.geral:hover{
+    border: 5px solid black; /*um elemento quando o cursor passa por ele*/
+}
+h1{
+    text-decoration: underline;
+    color: #05ab9d;
+}
+p{
+    text-align: justify;
+    padding: 2px 30px; /*2px acima e abaixo; 30px esquerda e direita*/
+    font-size: larger;
+}
